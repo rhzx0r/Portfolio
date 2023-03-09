@@ -1,14 +1,18 @@
-export default function Article({ className = 'rounded-lg'}) {
+import Link from "next/link";
+
+export default function Article({post, className = 'rounded-lg'}) {
   return (
     <article className={`bg-white p-4 ${className}`}>
-      <h3 className="text-2xl mb-2 font-medium">Post Title</h3>
+      <Link href={`blog/${post.slug}`}>
+      <h3 className="text-2xl mb-2 font-medium">
+        {post.title}
+      </h3>
+      </Link>
       <span className="text-gray-600 mb-4 block">
-        <date>06 Mar 23</date> | Design System
+        {post.date} | {post.tags.map((tag) => tag).join(', ')}
       </span>
       <p>
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
+        {post.description}
       </p>
     </article>
   )

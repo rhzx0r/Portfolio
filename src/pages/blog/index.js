@@ -1,7 +1,22 @@
 import Head from "next/head";
 import Article from "@/components/Article";
+import { getAllPosts } from '../../../lib/api';
 
-export default function Blog() {
+export async function getStaticProps() {
+  // Get all posts
+  const posts = getAllPosts();
+
+  return {
+    props: {
+      posts,
+    }
+  }
+}
+
+export default function Blog({ posts }) {
+
+  console.log(posts);
+
   return (
     <div>
       <Head>
@@ -12,10 +27,11 @@ export default function Blog() {
       <section className="px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold mb-6 p-4">Blog</h1>
-          <Article className="border-b-2"/>
-          <Article className="border-b-2"/>
-          <Article className="border-b-2"/>
-          <Article className="border-b-2"/>
+          {
+            posts.map((post) => (
+              <Article key={post.slug} className="border-b-2" post={post} />
+            ))
+          }
         </div>
       </section>
     </div>

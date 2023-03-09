@@ -2,9 +2,10 @@ import Image from "next/image";
 import profile from "../../public/profile.png";
 
 export default function IntroHeader() {
+
   return (
     <header className="px-6 py-14">
-      <div className="max-w-4xl mx-auto flex gap-14 items-center">
+      <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
         <div>
           <h1 className="text-3xl font-bold mb-6">
             Hi, I am Ricardo!
