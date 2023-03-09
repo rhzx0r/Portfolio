@@ -1,4 +1,4 @@
-import Work from "@/components/Work";
+import Work from "../components/Work";
 import Head from "next/head";
 import { getAllWork } from "../../lib/api";
 

@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import IntroHeader from "@/components/introHeader";
-import RecentPosts from '@/components/RecentPosts';
-import FeaturedWorks from '@/components/FeaturedWorks';
+import IntroHeader from "../components/introHeader";
+import RecentPosts from '../components/RecentPosts';
+import FeaturedWorks from '../components/FeaturedWorks';
 import { getAllPosts, getAllWork } from '../../lib/api';
 
 export async function getStaticProps() {
