@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import IntroHeader from "../components/introHeader";
+import IntroHeader from "../components/IntroHeader";
 import RecentPosts from '../components/RecentPosts';
 import FeaturedWorks from '../components/FeaturedWorks';
 import { getAllPosts, getAllWork } from '../../lib/api';

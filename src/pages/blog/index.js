@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Article from "../components/Article";
+import Article from "../../components/Article";
 import { getAllPosts } from '../../../lib/api';
 
 export async function getStaticProps() {
