@@ -45,7 +45,7 @@ export default function Footer() {
         </ul>
       </nav>
       <p className="text-sm text-slate-500">
-        &copy; 2022 Chris Bongers. All rights reserved.
+        &copy; 2023 Ricardo Balam. All rights reserved.
       </p>
     </footer>
   );
