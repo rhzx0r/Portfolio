@@ -3,6 +3,7 @@ import IntroHeader from "../components/IntroHeader";
 import RecentPosts from '../components/RecentPosts';
 import FeaturedWorks from '../components/FeaturedWorks';
 import { getAllPosts, getAllWork } from '../../lib/api';
+import Skils from '@/components/Skills';
 
 export async function getStaticProps() {
   const posts = getAllPosts();
@@ -27,6 +28,7 @@ export default function Home({ posts, work }) {
         <IntroHeader />
         <RecentPosts posts={posts}/>
         <FeaturedWorks work={work}/>
+        <Skils />
     </div>
   )
 }
