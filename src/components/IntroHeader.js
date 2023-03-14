@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profile from "../../public/profile.png";
+import profile from "../../public/profile2.jpg";
 
 export default function IntroHeader() {
 
