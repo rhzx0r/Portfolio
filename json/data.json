@@ -6,7 +6,7 @@
       "year": 2022,
       "category": "Ir al proyecto",
       "link": "https://glittering-monstera-f7f994.netlify.app/",
-      "description": "Un pequeño proyecto para el seguimiento de pacientes de una veterinaria usando React, Tailwind y LocalStorage para almacenar los tados."
+      "description": "Un pequeño proyecto para el seguimiento de pacientes de una veterinaria usando React, Tailwind y LocalStorage para almacenar los datos."
     },
     {
       "title": "Calculadora de presupuestos",
