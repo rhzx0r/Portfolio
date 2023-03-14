@@ -1,14 +1,6 @@
 {
   "work": [
     {
-      "title": "Implementación de la Api de OpenAI",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/a8a12ad5e6b92dfa21d35088987958faf6d8edca/public/workimages/pag4.png",
-      "year": 2023,
-      "category": "Ir al proyecto",
-      "link": "https://github.com/rhzx0r/web-app-ia-generator-by-openai-api",
-      "description": "Simple implementación de Frontend en React usando la API de OpenAI [DALL-E] para la generación de imagenes con IA"
-    },
-    {
       "title": "Pacientes veterinaria",
       "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/e01692901965551dee7e673f7b09f272d458027d/public/workimages/pag1.png",
       "year": 2022,
@@ -31,6 +23,14 @@
       "category": "Ir al proyecto",
       "link": "https://pensive-sammet-12b205.netlify.app/",
       "description": "Pagina para buscar recetas de cockteles segun el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com"
+    },
+    {
+      "title": "Simple DALL-E clon",
+      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/a8a12ad5e6b92dfa21d35088987958faf6d8edca/public/workimages/pag4.png",
+      "year": 2023,
+      "category": "Ir al proyecto",
+      "link": "https://github.com/rhzx0r/web-app-ia-generator-by-openai-api",
+      "description": "Simple implementación de Frontend en React usando la API de OpenAI [DALL-E] para la generación de imagenes con IA usando React como framework"
     }
   ]
 }
