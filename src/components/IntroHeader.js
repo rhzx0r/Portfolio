@@ -7,16 +7,14 @@ export default function IntroHeader() {
   return (
     <header className="px-6 py-14">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
-        <div>
+        <div className="max-w-xl">
           <h1 className="text-3xl font-bold mb-6">
-            Hi, I am Ricardo!
+            Hola, soy Ricardo!
             <br/>
-            Web Developer 🧑🏻‍💻
+            Desarrollador web 🧑🏻‍💻
           </h1>
           <p className="text-lg mb-6">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+          ¡Hola y bienvenido(a) a mi portafolio! Soy un estudiante de ingeniería de software apasionado por la programación y el desarrollo de software. Me encanta crear soluciones innovadoras y eficientes para resolver problemas complejos y mejorar la vida de las personas. Aquí encontrarás algunos de mis proyectos y trabajos realizados, espero que te gusten y puedan darte una idea de mi experiencia y habilidades como programador. ¡Gracias por visitar mi sitio!
           </p>
           <Link
             href="/work"

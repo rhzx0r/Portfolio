@@ -1,5 +1,5 @@
 ---
-title: 'Blog post two'
+title: 'Mi formación'
 description: 'A short description about this post'
 image: /images/post-1.jpg
 date: '2021-09-21'
