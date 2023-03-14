@@ -29,8 +29,8 @@ export default function PostPage({ frontmatter, content }) {
   return (
     <section className="px-6">
       <div className="max-w-4xl mx-auto py-12">
-        <div className="prose mx-auto">
-          <h1>{frontmatter.title}</h1>
+        <div className="prose lg:prose-xl mx-auto">
+          <h2>{frontmatter.title}</h2>
           <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         </div>
       </div>

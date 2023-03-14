@@ -1,8 +1,8 @@
 ---
-title: 'Blog post two'
+title: 'Blog post four'
 description: 'A short description about this post'
 image: /images/post-1.jpg
-date: '2022-09-25'
+date: '2022-09-22'
 tags: 
     - tag1
     - tag2
