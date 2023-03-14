@@ -27,7 +27,7 @@ export default function Skils() {
   return (
     <section className="bg-white px-6">
       <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="My skills" href="#" />
+        <SectionHeader title="Mis habilidades" href="#" />
         <div className="">
           <ul className="flex flex-row flex-wrap place-content-center">
             <li className="mx-4 my-4 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110 hover: duration-200">

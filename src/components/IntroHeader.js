@@ -20,7 +20,7 @@ export default function IntroHeader() {
             href="/work"
             className="bg-red-400 text-white px-6 py-3 text-lg rounded"
           >
-            Check my work
+            Mis proyectos
           </Link>
         </div>
         <span className=" m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-red-400 relative z-0 before:rounded-full">
