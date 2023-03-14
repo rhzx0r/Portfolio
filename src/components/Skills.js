@@ -23,6 +23,7 @@ import rust from '../../public/logos/Rust.png'
 import python from '../../public/logos/Python.png'
 
 export default function Skils() {
+  
   return (
     <section className="bg-white px-6">
       <div className="max-w-4xl mx-auto py-12">

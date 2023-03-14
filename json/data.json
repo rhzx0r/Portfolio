@@ -1,18 +1,25 @@
 {
   "work": [
     {
-      "title": "Example piece one",
-      "image": "https://placedog.net/500",
+      "title": "Pacientes veterinaria",
+      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/e01692901965551dee7e673f7b09f272d458027d/public/workimages/pag1.png",
       "year": 2022,
-      "category": "Dashboard",
-      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "category": "Ir al proyecto",
+      "description": "Un pequeño proyecto para el seguimiento de pacientes de una veterinaria usando React, Tailwind y LocalStorage para almacenar los tados."
     },
     {
-      "title": "Example piece two",
-      "image": "https://placedog.net/500",
+      "title": "Calculadora de presupuestos",
+      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/e01692901965551dee7e673f7b09f272d458027d/public/workimages/pag1.png",
       "year": 2022,
-      "category": "Backend",
-      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "category": "Ir al proyecto",
+      "description": "Una calculadora de presupuesto para medir tus gastos, pudiendo añadir, remover y filtrar tus gastos además de poderlos ver por categorias. Usa animaciones y modals con CSS junto con React"
+    },
+    {
+      "title": "Buscador de recetas",
+      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/e01692901965551dee7e673f7b09f272d458027d/public/workimages/pag1.png",
+      "year": 2022,
+      "category": "Ir al proyecto",
+      "description": "Pagina para buscar recetas de cockteles segun el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com"
     }
   ]
 }
