@@ -22,7 +22,7 @@
       "year": 2019,
       "category": "Ir al proyecto",
       "link": "https://pensive-sammet-12b205.netlify.app/",
-      "description": "Pagina para buscar recetas de cockteles segun el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com"
+      "description": "Pagina para buscar recetas de cócteles segun el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com"
     },
     {
       "title": "Simple DALL-E clon",
@@ -31,6 +31,14 @@
       "category": "Ir al proyecto",
       "link": "https://github.com/rhzx0r/web-app-ia-generator-by-openai-api",
       "description": "Simple implementación de Frontend en React usando la API de OpenAI [DALL-E] para la generación de imagenes con IA usando React como framework"
+    },
+    {
+      "title": "Cotizador de criptomonedas",
+      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/0b1cdc1992505726755b9a8c346bcce269406e09/public/workimages/pag5.png",
+      "year": 2023,
+      "category": "Ir al proyecto",
+      "link": "https://ambitious-glacier-043f9bb10.2.azurestaticapps.net/",
+      "description": "Un simple cotizador de criptomondas para saber el precio de una criptomoneda a tu moneda local. Hecho con React consumiendo la api de cryptocompare.com"
     }
   ]
 }
