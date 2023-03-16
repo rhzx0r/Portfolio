@@ -37,8 +37,8 @@ export default function PostPage({ frontmatter, content }) {
   const time = readingTime(content);
 
   return (
-    <section className="px-6">
-      <div className="max-w-4xl mx-auto py-12">
+    <section className="px-6 dark:bg-slate-300">
+      <div className="max-w-4xl mx-auto py-12  rounded-lg">
         <div className="prose lg:prose-xl mx-auto">
           <h2 className="!mb-0">{frontmatter.title}</h2>
           <div className="flex justify-between">

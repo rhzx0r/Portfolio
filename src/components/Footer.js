@@ -6,7 +6,7 @@ export default function Footer() {
           <li>
             <a href="#">
               <svg
-                fill="#000000"
+                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 width="16px"
@@ -23,7 +23,7 @@ export default function Footer() {
               rel="noopener noreferrer"
             >
               <svg
-                fill="#000000"
+                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 width="16px"
@@ -40,7 +40,7 @@ export default function Footer() {
               rel="noopener noreferrer"
             >
               <svg
-                fill="#000000"
+                fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 width="16px"
@@ -59,7 +59,7 @@ export default function Footer() {
         href="https://vercel.com/?utm_source=ct-tailwind-team&amp;utm_campaign=oss"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-dark inline-flex items-center font-semibold no-underline"
+        className="inline-flex items-center font-semibold no-underline"
       >
         <span className="mr-1">Powered by</span>
         <span>

@@ -20,7 +20,6 @@ const useReadingProgress = () => {
     return () => {
       window.removeEventListener('scroll', updateScrollCompletion);
     }
-
   }, []);
 
   return completion

@@ -25,7 +25,7 @@ import python from '../../public/logos/Python.png'
 export default function Skils() {
   
   return (
-    <section className="bg-white px-6">
+    <section className="bg-white px-6 dark:bg-slate-600">
       <div className="max-w-4xl mx-auto py-12">
         <SectionHeader title="Mis habilidades" href="#" />
         <div className="">
