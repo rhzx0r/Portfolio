@@ -4,8 +4,8 @@ description: 'Un poco de mi historia en la programación'
 image: /images/post-1.jpg
 date: '2023-03-12'
 tags: 
-    - tag1
-    - tag2
+    - Personal
+    - Desarrollo
 ---
 
 ¡Hola a todos! En este post les quiero compartir mi experiencia en el mundo del desarrollo y cómo he ido creciendo en este fascinante campo.

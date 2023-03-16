@@ -9,7 +9,7 @@ export default function Work({ item }) {
         <h3 className="text-2xl mb-2 font-medium">{item.title}</h3>
         <div className="text-gray-600 mb-4 flex justify-between">
           <span >
-            {item.year}
+          📅 {item.year}
           </span>
           <a className="bg-blue-800 text-white px-5 py-1.5 mr-4 rounded-xl justify-self-end" href={item.link} target="_blank">{item.category}</a>
           {/* // {item.category} */}
