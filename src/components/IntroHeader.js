@@ -17,7 +17,7 @@ export default function IntroHeader() {
           ¡Hola y bienvenidos a mi portafolio! Soy un estudiante de ingeniería de software apasionado por la programación y el desarrollo de software. Me encanta crear soluciones innovadoras y eficientes para resolver problemas complejos y mejorar la vida de las personas. Aquí encontrarás algunos de mis proyectos y trabajos realizados, espero que te gusten y puedan darte una idea de mi experiencia y habilidades como programador. ¡Gracias por visitar mi sitio!
           </p>
           <Link
-            href="/work"
+            href="/works"
             className="bg-red-400 text-white px-6 py-3 text-lg rounded dark:bg-blue-600"
           >
             Mis proyectos
