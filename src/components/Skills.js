@@ -33,7 +33,7 @@ export default function Skills() {
               <Image src={js} alt="javascript" width={90}  height={90} className="rounded-md" />
             </li>
             <li className="mx-4 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-200">
-              <Image src={typescript} width={90} alt="" height={90} className="rounded-md" />
+              <Image src={typescript} width={90} alt="typescript" height={90} className="rounded-md" />
             </li>
             <li className="mx-4 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover: duration-200">
               <Image src={java} width={90} alt="" height={90} className="rounded-md" />

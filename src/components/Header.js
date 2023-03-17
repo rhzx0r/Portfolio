@@ -1,36 +1,20 @@
 import useReadingProgress from "@/hooks/useReadingProgress";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+import { useTheme } from "next-themes";
 
 export default function Header() {
   const router = useRouter();
   const routes = ["Blog", "Works"];
   const completion = useReadingProgress();
-  const [theme, setTheme] = useState(null);
-  
-  useEffect(() => {
-    setTheme(localStorage.getItem('theme'));
-  }, [])
+  const {theme, setTheme} = useTheme(); //* theme hook for nextjs *//
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem('theme', theme)
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem('theme', theme)
-    }
-  }, [theme]);
-
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  const currentTheme = theme === 'system' ? systemTheme : theme;
 
   return (
-    //* Change color using bg-[#FFFFF]
+
     <>
-      <header className="container dark:bg-slate-800 mx-auto flex justify-between h-24 items-center px-6 md:px-0 bg-[#FFFFFF]">
+      <header className="container dark:bg-slate-800 mx-auto flex justify-between h-24 items-center px-6 md:px-0 bg-white">
         <Link href="/">
           <svg
             aria-label="Daily Dev Tips logo"
@@ -72,10 +56,10 @@ export default function Header() {
             <li>
               <button
                 className="bg-yellow-400 dark:bg-slate-500 p-1 rounded-xl"
-                onClick={handleThemeSwitch}
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
               >
                 <span>
-                  {theme === "dark" ? (
+                  {currentTheme === "dark" ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
