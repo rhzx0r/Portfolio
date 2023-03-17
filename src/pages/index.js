@@ -3,8 +3,8 @@ import IntroHeader from "../components/IntroHeader";
 import RecentPosts from '../components/RecentPosts';
 import FeaturedWorks from '../components/FeaturedWorks';
 import { getAllPosts, getAllWork } from '../../lib/api';
-import Skills from '@/components/Skills';
-import SoftSkills from '@/components/softSkills';
+import Skills from '..components/Skills';
+import SoftSkills from '../components/SoftSkills';
 
 export async function getStaticProps() {
   const posts = getAllPosts();
