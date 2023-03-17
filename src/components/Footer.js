@@ -1,3 +1,4 @@
+
 export default function Footer() {
   return (
     <footer className="container mx-auto  flex justify-center flex-col items-center h-80 gap-6 static bottom-0">

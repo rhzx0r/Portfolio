@@ -4,10 +4,10 @@ import Header from "./Header";
 export default function Layout({ children }) {
   return (
     //TODO: Mirar el footer luego
-    <> 
-      <Header/>
+    <>
+      <Header />
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
