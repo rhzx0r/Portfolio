@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SectionHeader from "./SectionHeader";
-// import Botstrap from '../../public/logos/Bootstrap.png';
 import C from '../../public/logos/C.png';
 import html from '../../public/logos/html5.png';
 import CSS from '../../public/logos/CSS3.png'
@@ -22,12 +21,12 @@ import tailwind from '../../public/logos/tailwind.png';
 import rust from '../../public/logos/Rust.png'
 import python from '../../public/logos/Python.png'
 
-export default function Skils() {
+export default function Skills() {
   
   return (
-    <section className="bg-white px-6 dark:bg-slate-600">
-      <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="Mis habilidades" href="#" />
+    <section className="bg-blue-100 px-6 dark:bg-slate-600">
+      <div className="max-w-4xl mx-auto pb-12">
+        <SectionHeader title="Mis habilidades técnicas" href="#" />
         <div className="">
           <ul className="flex flex-row flex-wrap place-content-center">
             <li className="mx-4 my-4 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110 hover: duration-200">
