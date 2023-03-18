@@ -2,7 +2,7 @@
 title: 'Mi formación'
 description: 'Aquí podras encontrar un poco de mi formación académica.'
 image: /images/post-1.jpg
-date: '2022-09-25'
+date: '2023-03-11'
 tags: 
     - Personal
     - Formación
