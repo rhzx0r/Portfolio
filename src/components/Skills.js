@@ -27,7 +27,7 @@ export default function Skills() {
   return (
     <section className="bg-blue-100 px-6 dark:bg-slate-600">
       <div className="max-w-4xl mx-auto pb-12">
-        <SectionHeader title="Mis habilidades técnicas" href="#" />
+        <SectionHeader title="💻 Mis habilidades técnicas" href="#" />
         <div className="">
           <ul className="flex flex-row flex-wrap place-content-center">
             <li className="mx-4 my-4 transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-110 hover: duration-200">

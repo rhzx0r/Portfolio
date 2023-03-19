@@ -4,7 +4,7 @@ export default function SoftSkills() {
   return (
     <section className="bg-blue-100 px-6 dark:bg-slate-600">
       <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="Mis habilidades sociales" href="#" />
+        <SectionHeader title="🤝 Mis habilidades sociales" href="#" />
         <div className="text-base ">
           <p className="border-b-2 border-black dark:border-white py-3 text-lg">
             Comunicación efectiva: Soy un comunicador efectivo tanto verbal como
