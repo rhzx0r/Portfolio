@@ -4,16 +4,13 @@ import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import mainLogo from "../../public/svg/logo.svg";
-import dark from "../../public/svg/dark.svg";
-import light from "../../public/svg/light.svg";
+import dark_light from "../../public/svg/dark-light.png";
 
 export default function Header() {
   const router = useRouter();
   const routes = ["Blog", "Works"];
   const completion = useReadingProgress();
   const { theme, setTheme } = useTheme(); //* theme hook for nextjs *//
-
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
     <>
@@ -49,23 +46,13 @@ export default function Header() {
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 >
                   <span>
-                    {currentTheme === "dark" ? (
-                      <Image
-                        priority
-                        src={dark}
-                        alt="dark icon"
-                        height={20}
-                        width={20}
-                      />
-                    ) : (
-                      <Image
-                        priority
-                        src={light}
-                        alt="light icon"
-                        height={20}
-                        width={20}
-                      />
-                    )}
+                    <Image
+                      priority
+                      src={dark_light}
+                      alt="light"
+                      height={20}
+                      width={20}
+                    />
                   </span>
                 </button>
               </li>
