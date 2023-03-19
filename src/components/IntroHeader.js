@@ -18,8 +18,6 @@ export default function IntroHeader() {
               steps={[
                 "Desarrollador Web 🌐",
                 1000,
-                "Desarrollador de Aplicaciones 💻",
-                1000,
                 "Entusiasta de Linux 🐧",
                 1000,
                 "Estudiante de Ingeniería 🚀",
