@@ -13,7 +13,8 @@ export default function SoftSkills() {
             lo que me ha permitido desarrollar habilidades de persuasión y
             empatía. 
           </p>
-          <p className="border-b-2 border-black dark:border-white py-3 text-lg">Trabajo en equipo: Disfruto trabajando en equipo y
+          <p className="border-b-2 border-black dark:border-white py-3 text-lg">
+            Trabajo en equipo: Disfruto trabajando en equipo y
             colaborando con otros para lograr objetivos comunes. Tengo
             habilidades de liderazgo que me permiten motivar y guiar a mi equipo
             hacia el éxito. También he participado en proyectos
