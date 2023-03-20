@@ -1,5 +1,3 @@
-// import fs from "fs";
-// import matter from "gray-matter";
 import md from "markdown-it";
 import { getAllPosts, getPostBySlug } from "../../../lib/api";
 

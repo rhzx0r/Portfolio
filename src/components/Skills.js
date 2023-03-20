@@ -19,7 +19,6 @@ import python from '../../public/logos/python.svg'
 import azure from '../../public/logos/azure.svg';
 import bootstrap from '../../public/logos/bootstrap.svg'
 import postman from '../../public/logos/postman.svg'
-
 import js from '../../public/logos/javascript.svg';
 
 export default function Skills() {
