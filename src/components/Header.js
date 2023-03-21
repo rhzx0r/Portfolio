@@ -8,7 +8,7 @@ import dark_light from "../../public/svg/dark-light.png";
 
 export default function Header() {
   const router = useRouter();
-  const routes = ["Blog", "Works"];
+  const routes = ["Blog", "Projects"];
   const completion = useReadingProgress();
   const { theme, setTheme } = useTheme(); //* theme hook for nextjs *//
 
@@ -33,7 +33,7 @@ export default function Header() {
                     key={route}
                     className={`hover:underline ${
                       router.pathname.startsWith(`/${route.toLowerCase()}`) &&
-                      "text-red-400 dark:text-blue-500"
+                      "text-red-400 dark:text-orange-500"
                     }`}
                   >
                     <Link href={`/${route.toLowerCase()}`}>{route}</Link>
