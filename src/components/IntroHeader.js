@@ -35,7 +35,7 @@ export default function IntroHeader() {
             habilidades como programador. ¡Gracias por visitar mi sitio!
           </p>
           <Link
-            href="/works"
+            href="/projects"
             className="bg-red-400 text-white px-6 py-3 text-lg rounded dark:bg-blue-600"
           >
             Mis proyectos
