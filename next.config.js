@@ -8,6 +8,11 @@ const nextConfig = {
         hostname: 'raw.githubusercontent.com',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: '',
+      }
     ],
   },
 }

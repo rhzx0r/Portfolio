@@ -2,7 +2,7 @@
   "work": [
     {
       "title": "Pacientes veterinaria",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/e01692901965551dee7e673f7b09f272d458027d/public/workimages/pag1.png",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689304399/Portfolio/pag1_k76mfg.png",
       "year": 2022,
       "category": "Ir al proyecto",
       "link": "https://glittering-monstera-f7f994.netlify.app/",
@@ -10,7 +10,7 @@
     },
     {
       "title": "Calculadora de presupuestos",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/4d7220adcc23ce96820249fa21c904a9070a59e3/public/workimages/pag2.png",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689304402/Portfolio/pag2_zidbln.png",
       "year": 2022,
       "category": "Ir al proyecto",
       "link": "https://zesty-heliotrope-e8cd02.netlify.app/",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Buscador de recetas",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/4d7220adcc23ce96820249fa21c904a9070a59e3/public/workimages/pag3.png",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689304413/Portfolio/pag3_pwwhob.png",
       "year": 2019,
       "category": "Ir al proyecto",
       "link": "https://pensive-sammet-12b205.netlify.app/",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Simple DALL-E clon",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/a8a12ad5e6b92dfa21d35088987958faf6d8edca/public/workimages/pag4.png",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689304408/Portfolio/pag4_kaolul.png",
       "year": 2023,
       "category": "Ir al proyecto",
       "link": "https://github.com/rhzx0r/web-app-ia-generator-by-openai-api",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Cotizador de criptomonedas",
-      "image": "https://raw.githubusercontent.com/rhzx0r/Portfolio/0b1cdc1992505726755b9a8c346bcce269406e09/public/workimages/pag5.png",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689304403/Portfolio/pag5_p1flqd.png",
       "year": 2023,
       "category": "Ir al proyecto",
       "link": "https://ambitious-glacier-043f9bb10.2.azurestaticapps.net/",
