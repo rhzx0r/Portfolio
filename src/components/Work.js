@@ -4,20 +4,35 @@ import react from '../../public/logos/reactjs.svg'
 import bootstrap from '../../public/logos/bootstrap.svg'
 import api from '../../public/logos/api.svg'
 import openai from '../../public/logos/openai.svg'
+import tailwind from '../../public/logos/tailwind.svg'
+import nextjs from '../../public/logos/nextjs2.svg'
+import mongodb from '../../public/logos/mongodb.svg'
+import typescript from '../../public/logos/typescript.svg'
+import prisma from '../../public/logos/prisma.svg'
+import netlify from '../../public/logos/netlify.svg'
+import azure from '../../public/logos/azure.svg'
 
 export default function Work({ item }) {
 
   const logos = {
+    default: "",
     js: js,
+    typescript: typescript,
     react: react,
     bootstrap: bootstrap,
     api: api,
-    openai: openai
+    openai: openai,
+    tailwind: tailwind,
+    nextjs: nextjs,
+    mongodb: mongodb,
+    prisma: prisma,
+    netlify: netlify,
+    azure: azure,
   };
 
   
   function getLogo(logo) {
-    return logos[logo.toLowerCase()] || null;
+    return logos[logo.toLowerCase()] || logos.default;
   }
 
   return (
@@ -42,8 +57,8 @@ export default function Work({ item }) {
           </a>
         </div>
         <p>{item.description}</p>
-        <div className="flex mt-1 justify-end"> 
-        <div className="mr-1">Stack: </div> 
+        <div className="flex mt-2 justify-end"> 
+        <div className="mr-1">Stack: </div>
         <a className="flex flex-row flex-wrap">
           { item.stack &&
             item.stack.map((logo) => (
@@ -51,7 +66,7 @@ export default function Work({ item }) {
                 className="mr-1"
                 key={logo}
               >
-                {" "}<Image src={getLogo(logo)} width={20} alt={logo} height={20} className="rounded-md" />
+                <Image src={getLogo(logo)} width={20} alt={logo} height={20} className="rounded-md" />
               </span>
             ))
           }
