@@ -24,7 +24,7 @@
       "year": 2019,
       "category": "Ir al proyecto",
       "link": "https://pensive-sammet-12b205.netlify.app/",
-      "description": "Pagina para buscar recetas de cócteles segun el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com.",
+      "description": "Pagina para buscar recetas de cócteles según el ingrediente que usted elija, hecho con React, Axios y la api de thecocktaildb.com.",
       "stack": ["js", "react", "bootstrap", "api", "netlify"]
     },
     {
@@ -42,7 +42,7 @@
       "year": 2023,
       "category": "Ir al proyecto",
       "link": "https://ambitious-glacier-043f9bb10.2.azurestaticapps.net/",
-      "description": "Un simple cotizador de criptomondas para saber el precio de una criptomoneda a tu moneda local. Hecho con React consumiendo la api de cryptocompare.com.",
+      "description": "Un simple cotizador de criptomonedas para saber el precio de una criptomoneda a tu moneda local. Hecho con React consumiendo la api de cryptocompare.com.",
       "stack": ["js", "react", "bootstrap", "api", "azure"]
     },
     {
@@ -51,7 +51,7 @@
       "year": 2023,
       "category": "Ir al proyecto",
       "link": "https://messenger-clone-seven-beta.vercel.app/",
-      "description": "Clon de messenger usando un stack moderno con NextJS, Prisma y una basde de datos en Mongodb además de una implementación de login mediante google y github.",
+      "description": "Clon de messenger usando un stack moderno con NextJS, Prisma y una base de de datos en Mongodb además de una implementación de login mediante google y github.",
       "stack": ["typescript", "react", "tailwind", "nextjs", "prisma", "mongodb"]
     }
   ]
