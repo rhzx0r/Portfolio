@@ -46,15 +46,7 @@ export default function Header() {
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 >
                   <span>
-
                     {theme === "dark" ? <BsMoonStars size={18}/> : <BsSun size={20} />}
-                    {/* <Image
-                      priority
-                      src={dark_light}
-                      alt="light"
-                      height={20}
-                      width={20}
-                    /> */}
                   </span>
                 </button>
               </li>
