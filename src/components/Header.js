@@ -7,6 +7,7 @@ import mainLogo from "../../public/svg/logo.svg";
 import { BsMoonStars, BsSun } from 'react-icons/bs'
 
 export default function Header() {
+  
   const router = useRouter();
   const routes = ["Blog", "Projects"];
   const completion = useReadingProgress();
@@ -14,7 +15,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="bg-white dark:bg-slate-900">
+      <div className="bg-slate-50 dark:bg-slate-900">
         <header className="container  mx-auto flex justify-between h-24 items-center px-6 md:px-0 ">
           <Link href="/">
             <Image
@@ -55,7 +56,7 @@ export default function Header() {
         </header>
         <span
           style={{ transform: `translateX(${completion - 100}%)` }}
-          className="bg-blue-500 dark:bg-red-400 h-1 fixed  w-full top-0 z-10"
+          className="bg-blue-500 dark:bg-red-500 h-1 fixed  w-full top-0 z-10"
         />
       </div>
     </>

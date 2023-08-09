@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import profile from "../../public/main-profile.png";
 import Typical from "react-typical";
+import { BiLogoGithub, BiLogoLinkedinSquare, BiMailSend } from "react-icons/bi";
 
 export default function IntroHeader() {
   return (
@@ -12,7 +13,8 @@ export default function IntroHeader() {
             Hola, soy Ricardo!
           </h1>
           <a className="text-2xl text-orange-500 font-bold text-center md:text-left">
-          {" "} <Typical
+            {" "}
+            <Typical
               loop={Infinity}
               wrapper="b"
               steps={[
@@ -34,12 +36,43 @@ export default function IntroHeader() {
             que te gusten y puedan darte una idea de mi experiencia y
             habilidades como programador. ¡Gracias por visitar mi sitio!
           </p>
-          <Link
-            href="/projects"
-            className="bg-red-400 text-white px-6 py-3 text-lg rounded dark:bg-blue-600"
-          >
-            Mis proyectos
-          </Link>
+          <div className="flex">
+            <Link
+              href="/projects"
+              className="bg-red-500 px-6 py-2 text-lg text-white rounded dark:bg-blue-600"
+            >
+              Mis proyectos
+            </Link>
+            <ul className="ml-5 grid gap-3 grid-cols-3 flex-wrap place-content-center">
+              <li>
+                <a
+                  href="https://github.com/rhzx0r"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BiLogoGithub size={30} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ricardo-balam-677399266/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BiLogoLinkedinSquare size={30} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:ricardo95balam@gmail.com?Subject=Contacto del portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BiMailSend size={30} />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <span className="m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-red-400 dark:before:bg-blue-700 relative z-0 before:rounded-full">
           <Image
