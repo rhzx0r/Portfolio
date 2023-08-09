@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import mainLogo from "../../public/svg/logo.svg";
-import dark_light from "../../public/svg/dark-light.png";
+import { BsMoonStars, BsSun } from 'react-icons/bs'
 
 export default function Header() {
   const router = useRouter();
@@ -26,12 +26,12 @@ export default function Header() {
             />
           </Link>
           <nav>
-            <ul className="flex gap-6 font-medium">
+            <ul className="flex gap-2 font-medium items-center transition">
               {routes.map((route) => {
                 return (
                   <li
                     key={route}
-                    className={`hover:underline ${
+                    className={`hover:underline py-1 px-2 rounded-sm hover:bg-neutral-100 dark:hover:hover:bg-slate-700 ${
                       router.pathname.startsWith(`/${route.toLowerCase()}`) &&
                       "text-red-400 dark:text-orange-500"
                     }`}
@@ -42,17 +42,19 @@ export default function Header() {
               })}
               <li>
                 <button
-                  className="bg-yellow-400 dark:bg-slate-500 p-1 rounded-xl"
+                  className="hover:bg-neutral-200 dark:hover:bg-slate-700 p-2 rounded-sm"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 >
                   <span>
-                    <Image
+
+                    {theme === "dark" ? <BsMoonStars size={18}/> : <BsSun size={20} />}
+                    {/* <Image
                       priority
                       src={dark_light}
                       alt="light"
                       height={20}
                       width={20}
-                    />
+                    /> */}
                   </span>
                 </button>
               </li>

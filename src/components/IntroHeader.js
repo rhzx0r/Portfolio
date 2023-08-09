@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profile from "../../public/profile3.png";
+import profile from "../../public/main-profile.png";
 import Typical from "react-typical";
 
 export default function IntroHeader() {

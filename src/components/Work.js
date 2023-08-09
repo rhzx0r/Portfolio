@@ -42,7 +42,7 @@ export default function Work({ item }) {
         alt=""
         width={500}
         height={335}
-        className="w-1/3 rounded-lg my-3 md:my-0 md:scale-[0.85] min-w-full md:min-w-fit  md:max-h-72"
+        className="w-1/3 rounded-lg my-3 md:my-0 md:scale-[0.85] min-w-full md:min-w-fit  md:max-h-72 shadow-md"
       />
       <div>
         <h3 className="text-2xl mb-2 font-medium">{item.title}</h3>
