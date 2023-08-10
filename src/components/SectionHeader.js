@@ -1,6 +1,6 @@
 export default function SectionHeader({ title, href }) {
   return (
-    <div className="flex justify-between items-center pl-2 mb-8">
+    <div className="flex justify-between items-center pl-2 mb-6">
       <h1 className="text-2xl font-bold">{title}</h1>
     </div>
   );

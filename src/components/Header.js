@@ -4,11 +4,10 @@ import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import mainLogo from "../../public/svg/logo.svg";
-import { BsMoonStars, BsSun } from 'react-icons/bs'
+import { BsMoonStars, BsSun } from "react-icons/bs";
 import { useState, useEffect } from "react";
 
 export default function Header() {
-  
   const router = useRouter();
   const routes = ["Blog", "Projects"];
   const completion = useReadingProgress();
@@ -16,12 +15,12 @@ export default function Header() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   return (
     <>
-      <div className="bg-slate-50 dark:bg-slate-900">
+      <div className="bg-white border-b-[1px] dark:border-none dark:bg-slate-900">
         <header className="container  mx-auto flex justify-between h-24 items-center px-6 md:px-0 ">
           <Link href="/">
             <Image
@@ -52,9 +51,15 @@ export default function Header() {
                   className="hover:bg-neutral-200 dark:hover:bg-slate-700 p-2 rounded-sm"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 >
-                  { mounted && <span>
-                    { theme === "dark" ? <BsMoonStars size={18} /> : <BsSun size={20} /> }
-                  </span>}
+                  {mounted && (
+                    <span>
+                      {theme === "dark" ? (
+                        <BsMoonStars size={18} />
+                      ) : (
+                        <BsSun size={20} />
+                      )}
+                    </span>
+                  )}
                 </button>
               </li>
             </ul>

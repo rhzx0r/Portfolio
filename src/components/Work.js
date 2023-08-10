@@ -35,7 +35,7 @@ export default function Work({ item }) {
   }
 
   return (
-    <article className="flex items-center border-b-2 border-slate-300 last:border-none py-2 flex-col max-h-full md:flex-row md:max-h-72 ">
+    <article className="flex items-center border-b-[1px] border-slate-300 last:border-none py-2 flex-col max-h-full md:flex-row md:max-h-72 ">
       <Image
         src={item.image}
         alt=""
