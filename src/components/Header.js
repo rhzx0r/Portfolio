@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import mainLogo from "../../public/svg/logo.svg";
 import { BsMoonStars, BsSun } from 'react-icons/bs'
+import { useState, useEffect } from "react";
 
 export default function Header() {
   
@@ -12,6 +13,11 @@ export default function Header() {
   const routes = ["Blog", "Projects"];
   const completion = useReadingProgress();
   const { theme, setTheme } = useTheme(); //* theme hook for nextjs *//
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   return (
     <>
@@ -46,9 +52,9 @@ export default function Header() {
                   className="hover:bg-neutral-200 dark:hover:bg-slate-700 p-2 rounded-sm"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                 >
-                  <span>
-                    {theme === "dark" ? <BsMoonStars size={18}/> : <BsSun size={20} />}
-                  </span>
+                  { mounted && <span>
+                    { theme === "dark" ? <BsMoonStars size={18} /> : <BsSun size={20} /> }
+                  </span>}
                 </button>
               </li>
             </ul>
