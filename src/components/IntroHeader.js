@@ -28,13 +28,11 @@ export default function IntroHeader() {
             />
           </a>
           <p className="text-lg mt-3 mb-6 text-justify md:text-left ">
-            ¡Hola y bienvenidos a mi portafolio! Soy un estudiante de ingeniería
-            de software apasionado por la programación y el desarrollo de
-            software. Me encanta crear soluciones innovadoras y eficientes para
-            resolver problemas complejos y mejorar la vida de las personas. Aquí
-            encontrarás algunos de mis proyectos y trabajos realizados, espero
-            que te gusten y puedan darte una idea de mi experiencia y
-            habilidades como programador. ¡Gracias por visitar mi sitio!
+            ¡Hola y bienvenidos a mi portfolio! Soy un estudiante de ingeniería
+            de software apasionado por dar vida a ideas a través de la
+            programación. Mi objetivo es diseñar soluciones ingeniosas que hagan
+            la vida de las personas más sencilla. ¡Explora mis proyectos y
+            descubre cómo transformo desafíos en código! ¡Gracias por tu visita!
           </p>
           <div className="flex">
             <Link

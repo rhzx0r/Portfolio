@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 
 export default function Header() {
   const router = useRouter();
-  const routes = ["Blog", "Projects"];
+  const routes = ["Blog", "Proyectos"];
   const completion = useReadingProgress();
   const { theme, setTheme } = useTheme(); //* theme hook for nextjs *//
   const [mounted, setMounted] = useState(false);
