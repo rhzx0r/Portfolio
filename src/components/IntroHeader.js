@@ -9,7 +9,7 @@ export default function IntroHeader() {
     <header className="px-6 py-14">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
         <div className="max-w-xl">
-          <h1 className="text-3xl font-bold mb-1 text-center md:text-left">
+          <h1 className="text-4xl font-bold mb-1 text-center md:text-left">
             Hola, soy Ricardo!
           </h1>
           <a className="text-2xl text-orange-500 font-bold text-center md:text-left">
@@ -28,7 +28,7 @@ export default function IntroHeader() {
             />
           </a>
           <p className="text-lg mt-3 mb-6 text-justify md:text-left ">
-            ¡Hola y bienvenidos a mi portfolio! Soy un estudiante de ingeniería
+            ¡Hola y bienvenidos a mi portafolio! Soy un estudiante de ingeniería
             de software apasionado por dar vida a ideas a través de la
             programación. Mi objetivo es diseñar soluciones ingeniosas que hagan
             la vida de las personas más sencilla. ¡Explora mis proyectos y
