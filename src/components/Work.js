@@ -48,7 +48,7 @@ export default function Work({ item }) {
         <div className="text-gray-600 dark:text-gray-400 mb-4 flex justify-between items-center">
           <span>📅 {item.year}</span>
           <a
-            className="bg-red-500 dark:bg-blue-700 text-white px-4 py-2 mr-4 rounded-xl"
+            className="bg-red-500 hover:bg-red-400 dark:bg-blue-700 dark:hover:bg-blue-600 text-white px-4 py-2 mr-4 rounded-xl"
             href={item.link}
             target="_blank"
           >
@@ -60,7 +60,7 @@ export default function Work({ item }) {
         <p>{item.description}</p>
         <div className="flex mt-2 justify-end">
           <span className="mr-1">Stack: </span>
-          <a className="flex flex-row flex-wrap pr-3">
+          <a className="flex flex-row flex-wrap pr-3 items-center">
             {item.stack &&
               item.stack.map((logo) => (
                 <span className="mr-1" key={logo}>

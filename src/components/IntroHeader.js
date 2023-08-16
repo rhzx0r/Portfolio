@@ -37,21 +37,21 @@ export default function IntroHeader() {
           <div className="flex">
             <Link
               href="/projects"
-              className="bg-red-500 px-6 py-2 text-lg text-white rounded dark:bg-blue-600"
+              className="bg-red-500 hover:bg-red-400 px-6 py-2 text-lg text-white rounded dark:bg-blue-600 dark:hover:bg-blue-500"
             >
               Mis proyectos
             </Link>
             <ul className="ml-5 grid gap-3 grid-cols-3 flex-wrap place-content-center">
-              <li>
+              <li className="transition ease-in-out hover:rotate-12">
                 <a
                   href="https://github.com/rhzx0r"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <BiLogoGithub size={30} />
+                  <BiLogoGithub size={30} className="rotate-2"/>
                 </a>
               </li>
-              <li>
+              <li className="transition ease-in-out hover:-rotate-12">
                 <a
                   href="https://www.linkedin.com/in/ricardo-balam-677399266/"
                   target="_blank"
@@ -60,7 +60,7 @@ export default function IntroHeader() {
                   <BiLogoLinkedinSquare size={30} />
                 </a>
               </li>
-              <li>
+              <li className="transition ease-in-out hover:rotate-12">
                 <a
                   href="mailto:ricardo95balam@gmail.com?Subject=Contacto del portfolio"
                   target="_blank"
