@@ -26,7 +26,6 @@ import {
   SiPostgresql,
   SiPrisma,
   SiOpenai,
-  SiC,
   SiExpress,
 } from "react-icons/si";
 
@@ -49,9 +48,6 @@ export default function Skills() {
               </li>
               <li className="md:mx-4 mx-2 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <BiLogoPython size={60} />
-              </li>
-              <li className="md:mx-4 mx-2 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <SiC size={50} />
               </li>
               <li className="md:mx-4 mx-2 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <BiLogoJava size={60} />
@@ -125,7 +121,6 @@ export default function Skills() {
               <li className="md:mx-4 mx-2 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <VscAzure size={50} />
               </li>
-
               <li className="md:mx-4 mx-2 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <SiPostman size={50} />
               </li>
