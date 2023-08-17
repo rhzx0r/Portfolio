@@ -27,7 +27,7 @@ export default function IntroHeader() {
               ]}
             />
           </a>
-          <p className="text-lg mt-3 mb-6 text-justify md:text-left ">
+          <p className="text-lg mt-3 mb-6 text-justify text-slate-800 dark:text-slate-100 md:text-left ">
             ¡Hola y bienvenidos a mi portafolio! Soy un estudiante de ingeniería
             de software apasionado por dar vida a ideas a través de la
             programación. Mi objetivo es diseñar soluciones ingeniosas que hagan

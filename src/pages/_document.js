@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="dark:bg-slate-800 bg-slate-50 dark:!text-white font-sans">
+      <body className="dark:bg-slate-800 bg-slate-50 dark:!text-slate-100 font-sans">
         <Main />
         <NextScript />
       </body>

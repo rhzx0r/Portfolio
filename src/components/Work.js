@@ -57,7 +57,7 @@ export default function Work({ item }) {
             </span>
           </a>
         </div>
-        <p>{item.description}</p>
+        <p className="text-slate-800 dark:text-slate-100">{item.description}</p>
         <div className="flex mt-2 justify-end">
           <span className="mr-1">Stack: </span>
           <a className="flex flex-row flex-wrap pr-3 items-center">
