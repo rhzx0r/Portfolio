@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <>
       <div className="bg-white border-b-[1px] dark:border-none dark:bg-slate-900">
-        <header className="container  mx-auto flex justify-between h-24 items-center px-6 md:px-0 ">
+        <header className="container  mx-auto flex justify-between h-20 items-center px-6 md:px-0 ">
           <Link href="/">
             <Image
               priority
