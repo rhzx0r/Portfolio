@@ -36,7 +36,7 @@ export default function IntroHeader() {
           </p>
           <div className="flex">
             <Link
-              href="/projectos"
+              href="/proyectos"
               className="bg-red-500 hover:bg-red-400 px-6 py-2 text-lg text-white rounded dark:bg-blue-600 dark:hover:bg-blue-500"
             >
               Mis proyectos
