@@ -46,7 +46,7 @@
       "stack": ["js", "react", "bootstrap", "api", "azure"]
     },
     {
-      "title": "Clon de messenger usando NextJS",
+      "title": "Clon de messenger usando NextJS 13",
       "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1689726355/Portfolio/utgcmxfdo4y7dqrbj7jz.png",
       "year": 2023,
       "category": "Ir al proyecto",
@@ -55,12 +55,21 @@
       "stack": ["typescript", "react", "tailwind", "nextjs", "prisma", "mongodb"]
     },
     {
-      "title": "Clon de Threads usando NextJS",
-      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1695865303/Portfolio/jrxebxhk6d2x5zvoyndw.png",
+      "title": "Clon de X (Twitter) usando NextJS 13",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1695866338/Portfolio/rib1j99oerwktbvdipkz.png",
       "year": 2023,
       "category": "Ir al proyecto",
       "link": "https://threads-clone-rhzx0r.vercel.app/",
-      "description": "Clon de threads usando NextJS, Mongoose validación de formularios y tipos con react-form y zod, además de autenticación usando Clerk",
+      "description": "Clon de X(Twitter) usando NextJS, prisma, zustand para el manejo de estados, SWR para el fetching de datos, además de autenticación usando NextAuth",
+      "stack": ["typescript", "react", "tailwind", "nextjs", "prisma", "mongodb"]
+    },
+    {
+      "title": "Clon de Threads usando NextJS 13",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1695865904/Portfolio/neq65q7d9al0ajkbksa1.png",
+      "year": 2023,
+      "category": "Ir al proyecto",
+      "link": "https://threads-clone-rhzx0r.vercel.app/",
+      "description": "Clon de threads usando NextJS, Mongoose, validación de formularios y tipos con react-form y zod, además de autenticación usando Clerk",
       "stack": ["typescript", "react", "tailwind", "nextjs", "mongodb"]
     }
   ]
