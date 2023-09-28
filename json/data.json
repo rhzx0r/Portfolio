@@ -53,6 +53,15 @@
       "link": "https://messenger-clone-seven-beta.vercel.app/",
       "description": "Clon de messenger usando un stack moderno con NextJS, Prisma y una base de de datos en Mongodb además de una implementación de login mediante google y github.",
       "stack": ["typescript", "react", "tailwind", "nextjs", "prisma", "mongodb"]
+    },
+    {
+      "title": "Clon de Threads usando NextJS",
+      "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1695865303/Portfolio/jrxebxhk6d2x5zvoyndw.png",
+      "year": 2023,
+      "category": "Ir al proyecto",
+      "link": "https://threads-clone-rhzx0r.vercel.app/",
+      "description": "Clon de threads usando NextJS, Mongoose validación de formularios y tipos con react-form y zod, además de autenticación usando Clerk",
+      "stack": ["typescript", "react", "tailwind", "nextjs", "mongodb"]
     }
   ]
 }
