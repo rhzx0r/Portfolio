@@ -59,7 +59,7 @@
       "image": "https://res.cloudinary.com/drxyoybae/image/upload/v1695866338/Portfolio/rib1j99oerwktbvdipkz.png",
       "year": 2023,
       "category": "Ir al proyecto",
-      "link": "https://threads-clone-rhzx0r.vercel.app/",
+      "link": "https://twitter-clone-rhzx0r.vercel.app/",
       "description": "Clon de X(Twitter) usando NextJS, prisma, zustand para el manejo de estados, SWR para el fetching de datos, además de autenticación usando NextAuth",
       "stack": ["typescript", "react", "tailwind", "nextjs", "prisma", "mongodb"]
     },
