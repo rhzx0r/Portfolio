@@ -14,6 +14,7 @@ import {
   BiLogoBootstrap,
   BiLogoTailwindCss,
 } from "react-icons/bi";
+import { FaRust } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { VscAzure } from "react-icons/vsc";
@@ -63,6 +64,12 @@ export default function Skills() {
                 <IconWithPopover icon={<BiLogoJava size={57} />} text="Java" />
                 <IconWithPopover text="Java" />
               </li>
+              <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
+                <IconWithPopover
+                  icon={<FaRust size={50} />}
+                  text="Typescript"
+                />
+              </li>
             </ul>
           </div>
 
@@ -76,7 +83,10 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover icon={<SiExpress size={60} />} text="Express" />
+                <IconWithPopover
+                  icon={<SiExpress size={60} />}
+                  text="Express"
+                />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -85,7 +95,10 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover icon={<BiLogoReact size={60} />} text="React" />
+                <IconWithPopover
+                  icon={<BiLogoReact size={60} />}
+                  text="React"
+                />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -94,7 +107,10 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover icon={<SiNextdotjs size={50} />} text="Next.js" />
+                <IconWithPopover
+                  icon={<SiNextdotjs size={50} />}
+                  text="Next.js"
+                />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -145,16 +161,10 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover
-                  icon={<BiLogoCss3 size={60} />}
-                  text="CSS3"
-                />
+                <IconWithPopover icon={<BiLogoCss3 size={60} />} text="CSS3" />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover
-                  icon={<FaLinux size={55} />}
-                  text="Linux"
-                />
+                <IconWithPopover icon={<FaLinux size={55} />} text="Linux" />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -163,10 +173,7 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover
-                  icon={<VscAzure size={50} />}
-                  text="Azure"
-                />
+                <IconWithPopover icon={<VscAzure size={50} />} text="Azure" />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -175,10 +182,7 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover
-                  icon={<SiPrisma size={50} />}
-                  text="Prisma"
-                />
+                <IconWithPopover icon={<SiPrisma size={50} />} text="Prisma" />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
                 <IconWithPopover
@@ -187,10 +191,7 @@ export default function Skills() {
                 />
               </li>
               <li className="md:mx-4 mx-3 my-4 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:duration-200">
-                <IconWithPopover
-                  icon={<SiDocker size={55} />}
-                  text="Docker"
-                />
+                <IconWithPopover icon={<SiDocker size={55} />} text="Docker" />
               </li>
             </ul>
           </div>
